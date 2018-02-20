@@ -134,16 +134,21 @@ var methodCollection = {}
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console. 
 */
 
-
-
+methodCollection.alertHello = function(){
+  alert("hello")
+}
+methodCollection.logHello = function(){
+  console.log("hello")
+}
 
 
 /*
   Now call your alertHello and logHello methods.
 */
 
-//Code Here
-
+// methodCollection.alertHello()
+// methodCollection.logHello()
+//alert must be working because spec runner keeps saying hello
 
 
 ////////// PROBLEM 6 //////////
